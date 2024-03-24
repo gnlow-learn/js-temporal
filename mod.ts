@@ -1,6 +1,6 @@
-const calendar = new Temporal.Calendar("hebrew")
+import { Temporal } from "https://esm.sh/temporal-polyfill@0.2.3"
 
-console.log(calendar)
+const calendar = new Temporal.Calendar("ethiopic")
 
 const now = Temporal.Now.plainDate(calendar)
 
